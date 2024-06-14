@@ -18,3 +18,41 @@ Before we get to the machine learning, we need to do a lot of work to acquire an
 * Improve the accuracy of the model
 
 At the end, we'll document some potential future directions we can go in to improve the technique.
+
+
+
+## Next steps
+
+We've come far in this project!  We've downloaded and cleaned data, and setup a backtesting engine.  We now have an algorithm that we can add more predictors to and continue to improve the accuracy of.
+
+There are a lot of next steps we could take to improve our predictions:
+
+### Improve the technique
+
+* Calculate how much money you'd make if you traded with this algorithm
+
+### Improve the algorithm
+
+* Run with a reduced step size!  This will take longer, but increase accuracy
+* Try discarding older data (only keeping data in a certain window)
+* Try a different machine learning algorithm
+* Tweak random forest parameters, or the prediction threshold
+
+### Add in more predictors
+
+* Account for activity post-close and pre-open
+    * Early trading
+    * Trading on other exchanges that open before the NYSE (to see what the global sentiment is)
+* Economic indicators
+    * Interest rates
+    * Other important economic news
+* Key dates
+    * Dividends
+    * External factors like elections
+* Company milestones
+    * Earnings calls
+    * Analyst ratings
+    * Major announcements
+* Prices of related stocks
+    * Other companies in the same sector
+    * Key partners, customers, etc.
