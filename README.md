@@ -8,7 +8,7 @@ This means that we will have to accept a lot of `false negatives` - days when we
 
 ## Method
 
-Before we get to the machine learning, we need to do a lot of work to acquire and clean up the data.  Here are the steps we'll follow:
+Here are the steps:
 
 * Download historical stock prices from Yahoo finance
 * Explore the data
@@ -23,7 +23,7 @@ At the end, we'll document some potential future directions we can go in to impr
 
 ## Next steps
 
-We've come far in this project!  We've downloaded and cleaned data, and setup a backtesting engine.  We now have an algorithm that we can add more predictors to and continue to improve the accuracy of.
+We've downloaded and cleaned data, and setup a backtesting engine.  We now have an algorithm that we can add more predictors to and continue to improve the accuracy of.
 
 There are a lot of next steps we could take to improve our predictions:
 
